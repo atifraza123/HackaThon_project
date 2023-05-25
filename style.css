@@ -258,3 +258,70 @@
 .centre{
   text-align: center;
 }
+/* Styles for mobile screens */
+@media only screen and (max-width: 480px) {
+  /* Modify styles for screens up to 480px wide (e.g., mobile devices) */
+
+  /* Navigation bar */
+  #navbar ul li {
+    font-size: 1rem;
+  }
+
+  #navbar ul li a {
+    padding: 3px 10px;
+  }
+
+  /* Section Home */
+  .about_us h1,
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  .about_us p,
+  #home p {
+    font-size: 1.2rem;
+  }
+
+  /* Services Section */
+  #services {
+    flex-wrap: wrap;
+  }
+
+  #services .box {
+    flex-basis: 50%;
+  }
+
+  /* Doctors Section */
+  #doctors {
+    flex-wrap: wrap;
+  }
+
+  #doctors .box {
+    flex-basis: 50%;
+  }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Modify styles for screens between 481px and 768px wide (e.g., tablets) */
+
+  /* Navigation bar */
+  #navbar ul li {
+    font-size: 1.1rem;
+  }
+
+  #navbar ul li a {
+    padding: 3px 15px;
+  }
+
+  /* Section Home */
+  .about_us h1,
+  #home h1 {
+    font-size: 2.5rem;
+  }
+
+  .about_us p,
+  #home p {
+    font-size: 1.3rem;
+  }
+}
